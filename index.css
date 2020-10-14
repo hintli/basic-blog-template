@@ -249,6 +249,12 @@ hr {
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    opacity:0.8;
+    transition: opacity 3s;
+}
+
+.refImage:hover {
+    opacity:1;
 }
 
 .refTitle {
@@ -262,4 +268,26 @@ hr {
 .refDescription {
     text-align: center;
 
+}
+
+/* 7 Galeri */
+
+.a {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.galeriImage {
+    width: 220px;
+    height: 220px;
+    opacity: 0.8;
+    border-radius: 10px;
+    transition: opacity 1s;
+    margin:22px;
+}
+
+.galeriImage:hover {
+    opacity: 1;
 }
